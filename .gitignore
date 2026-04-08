@@ -1,0 +1,51 @@
+# ---------------------------
+# Frontend (React Native / Expo)
+# ---------------------------
+frontend/node_modules/
+frontend/.expo/build/
+frontend/.expo/web/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
+
+# Native / certificates
+frontend/.kotlin/
+frontend/*.orig.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+
+# Metro
+frontend/.metro-health-check*
+
+# Debug logs
+frontend/npm-debug.*
+frontend/yarn-debug.*
+frontend/yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local environment
+frontend/.env*.local
+
+# TypeScript build info
+frontend/*.tsbuildinfo
+
+# ---------------------------
+# Backend (Java)
+# ---------------------------
+backend/build/
+backend/nbproject/
+backend/*.log
+
+
+# ---------------------------
+# OS / Editor
+# ---------------------------
+*.swp
+*.idea/
+*.vscode/
